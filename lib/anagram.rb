@@ -1,12 +1,13 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word
+  attr_accessor :word_to_match
 
   def initialize(word)
     @word = word
   end
 
-  def match
-
+  def match(array)
+    array.each{||
+    }
   end
 end
