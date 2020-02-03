@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(array)
-    array.collect{|word|
+    array.any?{|word|
       word_to_match == word
     }
   end
