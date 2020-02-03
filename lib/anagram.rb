@@ -11,7 +11,7 @@ class Anagram
     anagrams = []
     array.each{|word|
       binding.pry
-      if anagram.split.sort == word.split.sort
+      if anagram.split('').sort == word.split('').sort
         anagrams.push(word)
       end
     }
