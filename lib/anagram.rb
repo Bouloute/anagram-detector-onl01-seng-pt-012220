@@ -13,5 +13,6 @@ class Anagram
         anagrams.push(word)
       end
     }
+    anagrams
   end
 end
