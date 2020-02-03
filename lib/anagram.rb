@@ -1,14 +1,15 @@
 # Your code goes here!
 class Anagram
-  attr_accessor :word_to_match
+  attr_accessor :anagram
 
   def initialize(word)
-    @word_to_match = word
+    @anagram = word
   end
 
   def match(array)
-    array.any?{|word|
-      word_to_match == word
+    anagrams = []
+    array.each{|word|
+      anagram.sort == word.sort
     }
   end
 end
